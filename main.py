@@ -34,7 +34,7 @@ def z_algo(string, z):
             if z[K1] < R - K + 1:
                 z[K] = z[K1]
                 
-            # Case 2b: Z[K1] extends beyond the current Z-box
+            # Case 2b: Z[K1] goes beyond the current Z-box
             # We need to extend the comparison from position R
             else:   
                 L = K  # Start new Z-box from K
